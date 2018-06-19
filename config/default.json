@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "port": 8008,
+  "public": "../public/",
+  "paginate": false,
+  "mongodb": "mongodb://juan:asdf1234@ds163610.mlab.com:63610/todo-juanpreciado"
+}
