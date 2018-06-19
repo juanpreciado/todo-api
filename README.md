@@ -1,57 +1,45 @@
-# todo-api
+# TO DO LIST
 
-> A simple API providing CRUD functionality for TODOs
+Project scaffolded from https://feathersjs.com/
 
-## About
+Beckend for TO DO list simple app, developed with FeathersJS (https://feathersjs.com/)
+and https://mlab.com/ as database provider
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+### Getting Started
 
-## Getting Started
+This TO DO application consts of two separated but mutually required parts, and API and a Frontend
 
-Getting up and running is as easy as 1, 2, 3.
+#### Getting starte with API
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-
-    ```
-    cd path/to/todo-api; npm install
-    ```
-
-3. Start your app
-
-    ```
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
+Clone repo
 ```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers generate model                 # Generate a new Model
-$ feathers help                           # Show all commands
+git clone git@github.com:juanpreciado/todo-api.git
 ```
 
-## Help
+Install dependencies and start service
+```
+> cd todo-api
+> npm install
+> npm start
+```
 
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+API will start in  localhost:8008, and will use a test db on https://mlab.com/databases/todo-juanpreciado#users
 
-## Changelog
+#### Getting starte with FE
 
-__0.1.0__
+Getting
 
-- Initial release
+Clone repo
+```
+git clone git@github.com:juanpreciado/todo-fe.git
+```
 
-## License
+Install dependencies and start service
+```
+> cd todo-fe
+> npm install
+> npm start
+```
 
-Copyright (c) 2018
+Service will start on localhost:8080 and will use the API previously described as backend
 
-Licensed under the [MIT license](LICENSE).
